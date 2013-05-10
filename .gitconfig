@@ -1,0 +1,15 @@
+[user]
+	name = Jeff Storey
+	email = storey.jeff@gmail.com
+[core]
+	autocrlf = input
+	editor = vi
+[color]
+	ui = true
+[push]
+	default = upstream
+[alias]
+        co = checkout
+	hist = log --pretty=format:\"%Cgreen%h%Creset %ad | %s%d %Cblue[%an]\" --graph --date=short
+[branch]
+	autosetuprebase = always
