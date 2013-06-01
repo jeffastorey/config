@@ -28,12 +28,12 @@ up(){
   cd $d
 }
 
-mkcd () {
+mkcd() {
     mkdir -p "$*"
     cd "$*"
 }
 
-fullpath () {
+fullpath() {
   find `pwd` -name $1
 }
 
