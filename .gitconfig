@@ -1,6 +1,6 @@
 [user]
-	name = Jeff Storey
-	email = storey.jeff@gmail.com
+	name = <name>
+	email = <email>
 [core]
 	autocrlf = input
 	editor = vi
