@@ -37,5 +37,5 @@ fullpath() {
   find `pwd` -name $1
 }
 
-alias xo=xdg-open
+alias open=xdg-open
 alias removeTempFiles='rm -f .*~ *.*~'
