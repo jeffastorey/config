@@ -11,8 +11,7 @@
 [alias]
         co = checkout
         hist = log --pretty=format:\"%Cgreen%h%Creset %ad | %s%d %Cblue[%an]\" --graph --date=short
-        # CHANGE THIS TO THE PATH TO YOUR rebase-commit.sh SCRIPT
-        rebase-commit = !bash ~/workspace/infrastructure/git-scripts/rebase-commit.sh -i --nopush
+        rebase-commit = !bash ~/git-scripts/rebase-commit.sh -i --nopush
         rename-branch = !sh -c 'git branch -m "$1" "$2"' -
         new-branch = !sh -c 'git checkout -b "$1"' -
 [branch]
